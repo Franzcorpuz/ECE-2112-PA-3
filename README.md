@@ -73,28 +73,7 @@ c = cars.loc[cars['Model'] == 'Ferrari Dino',['Model','mpg','cyl','hp','gear']]
  ```python
 selected_cars = pd.concat([a ,b ,c])
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Since the information for the three cars was obtained one by one, the pd.concat([a, b, c]) syntax was used to concatenate the three cars and create a list containing only the model, mpg, cyl, hp, and gear. 
 
 
 
@@ -107,3 +86,5 @@ September 7, 2026 - Created the Repository
 September 7, 2026 - Uploaded the finished code
 
 September 9, 2026 - Started writing the README file
+
+September 9, 2026 - Finished the Repository
